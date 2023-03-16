@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --navy: #101F3E;
+  --light-blue: #95C1EE;
+  --shadow: #063A85;
+  --light: white;
+  --dark: black;
+
+}
+
+body {
+  background: var(--navy);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+header h1, p {
+  color: var(--light-blue);
+}
+
+
+/* Weather Card */
+.weatherHolder {
+  margin: 1.5vh 1.5vw;
+  padding: 1.5vh 1.5vw;
+  border-style: solid;
+  border-color: var(--light-blue);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.primaryCard {
+  margin: 1.5vh 1.5vw;
+  padding: 2vh 1vw; 
+  height: 50vh;
+  width: 20vw;
+  border-style: solid;
+  border-color: var(--light-blue);
+  border-radius: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#feelsLike {
+  color: var(--light-blue);
+  font-size: 1em;
+  margin: 0;
+}
+
+#currentTemp {
+ color: var(--light-blue);
+ font-size: 1000%;
+ text-shadow: -1vw 1.5vh var(--shadow);
+}
+
+.primaryDetailHolder {
+  display: flex;
+  justify-content: center;
+}
+
+.primaryIcon {
+  
+}
+
+.primaryDetail {
+  text-align: left
+}
+
+.fa-cloud {
+  color: var(--light-blue);
+}
+
+.secondaryCard {
+  border-style: solid;
+  border-color: var(--light-blue);
+  
+  margin: 1.5vh 1.5vw;
+  height: 50vh;
+  width: 44vw;
+}
+
+
+/* Style Classes */
